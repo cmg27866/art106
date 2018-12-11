@@ -2,6 +2,7 @@
 function setup() {
 	frameRate(60)
 	var c = createCanvas(400, 400);
+	fill(29, 120, 116)
 	angle = 0;
 	r = random(0,255);	
 	g = random(0,255); 
