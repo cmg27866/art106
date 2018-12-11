@@ -17,7 +17,7 @@ function mouseClicked(){
 
 function draw() {	
 	//Define a random color value for the horns
-	background(91, 12, 232);
+	background(29, 120, 116);
 	a = color(0,0,0)
 	b = color (0,0,0)
 	d = color(159,232,255)
@@ -66,6 +66,27 @@ function draw() {
 	
 	
 	angle = angle + 1;
+	
+	
+	var cnv;
+
+	function centerCanvas() {
+	  var x = (windowWidth - width) / 2;
+	  var y = (windowHeight - height) / 2;
+	  cnv.position(x, y);
+	}
+
+	function setup() {
+	  cnv = createCanvas(100, 100);
+	  centerCanvas();
+	  background(29, 120, 116);
+	}
+
+	function windowResized() {
+	  centerCanvas();
+	}
+
+	
 	//line
 	//yPos = yPos - 1;
 	//if (yPos < 0) {
