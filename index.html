@@ -8,10 +8,54 @@
 
 <body>
 
+var yPos = 0;
 
+function setup() {
+	frameRate(80)
+var c = createCanvas(400, 400);
+background(232, 150, 151);
+	
+	a = color(0,0,136)
+	b = color (0,0,0)
+	 
+}
 
-<h1 style="color:blue"> Under Construction</h1>
-<p style="color:purple">Come back in December 2018!</p>
+function draw() {
+	
+	//head
+	color(233,44,66) 
+	
+	quad(81,134,15,300,91,377,90,171)
+	quad(324,164,308,371,374,285)
+	ellipse(200,176,278,258)
+	
+	//e-yes
+	fill(a)
+	ellipse(138,158,40,40)
+	
+	line(239,140,265,172)
+	line(231,171,270,143)
+	
+	
+	
+	//line
+	yPos = yPos - 1;
+  if (yPos < 0) {
+    yPos = height;
+  }
+  
+	var c = color(166,255,235)
+	
+	fill(c);
+	lineX = line(0, yPos, width, yPos);
+  //noLoop();
+	
+	
+	console.log(mouseX,mouseY)
+}
+
+<h1 style="color:blue"> </h1>
+<p style="color:purple"></p>
 
 <p><img src="Dada.jpg" alt="Oops!"height="300" width="300"></p>
 
