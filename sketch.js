@@ -1,6 +1,6 @@
 function setup() {
 	frameRate(60)
-	var c = createCanvas(400, 400);
+	var c = createCanvas(500, 500);
 	fill(29, 120, 116)
 	r = random(0,255);	
 	g = random(0,255); 
