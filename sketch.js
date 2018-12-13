@@ -9,7 +9,7 @@ function setup() {
 
 	  background(29, 120, 116);
 
-	mouseClicked(){
+	functionmouseClicked(){
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
