@@ -9,7 +9,7 @@ function setup() {
 
 	  background(29, 120, 116);
 
-	function mouseClicked(){
+	mouseClicked(){
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
@@ -22,8 +22,6 @@ function draw()
 {	
 	//Define a random color value for the horns
 	background(29, 120, 116);
-	
-	
 	
 	
 	triangle(128,79,82,116,77,28)
