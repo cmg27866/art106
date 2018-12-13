@@ -22,7 +22,11 @@ function draw()
 {	
 	//Define a random color value for the horns
 	background(29, 120, 116);
-	
+	a = color(0,0,0)
+	b = color (0,0,0)
+	d = color(159,232,255)
+	f = color(255,255,255) 
+	z = color(158,87,232)
 	
 	triangle(128,79,82,116,77,28)
 	triangle(270,82,315,116,314,28)
