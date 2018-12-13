@@ -23,7 +23,8 @@ function mouseClicked(){
 	z = color(r, g, b);
 }
 
-function draw() {	
+function draw() 
+{	
 	//Define a random color value for the horns
 	background(29, 120, 116);
 	a = color(0,0,0)
@@ -67,29 +68,7 @@ function draw() {
 	//translate(width / 1, height / 1); rotate(PI / 1.0);
 	triangle(121,149,126,157,129,150)
 	
-	//Debug Text
-	//text(mouseX+','+mouseY, 10, 30);
-	
-	
-	
 	
 	angle = angle + 1;
-	
 
-	
-	//line
-	//yPos = yPos - 1;
-	//if (yPos < 0) {
-	//  yPos = height;
-  
-  
-	//var c = color(166,255,235)
-	
-	//fill(c);
-	//lineX = line(0, yPos, width, yPos);
-	//noLoop();
-	
-	
-	console.log(mouseX,mouseY)}
-	
-}
+	}
