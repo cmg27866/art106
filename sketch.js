@@ -6,8 +6,7 @@ function setup() {
 	g = random(0,255); 
 	b = random(0,255); 
 	z = color(r, g, b);
-	
-	  cnv = createCanvas(300, 300);
+
 	  background(29, 120, 116);
 	}
 
