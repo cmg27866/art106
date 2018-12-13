@@ -1,21 +1,21 @@
 function setup() {
 	frameRate(60)
-	var c = createCanvas(500, 500);
+	var c = createCanvas(400, 400);
 	fill(29, 120, 116)
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
 	z = color(r, g, b);
-
+	
+	  cnv = createCanvas(300, 300);
 	  background(29, 120, 116);
+	}
 
-	function mouseClicked(){
+function mouseClicked(){
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
 	z = color(r, g, b);
-}
-	
 }
 
 function draw() 
@@ -27,6 +27,8 @@ function draw()
 	d = color(159,232,255)
 	f = color(255,255,255) 
 	z = color(158,87,232)
+	
+	
 	
 	triangle(128,79,82,116,77,28)
 	triangle(270,82,315,116,314,28)
