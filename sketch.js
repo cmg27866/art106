@@ -8,14 +8,16 @@ function setup() {
 	z = color(r, g, b);
 
 	  background(29, 120, 116);
-	}
-
 function mouseClicked(){
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
 	z = color(r, g, b);
 }
+	
+}
+
+
 
 function draw() 
 {	
