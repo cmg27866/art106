@@ -1,18 +1,13 @@
-
 function setup() {
 	frameRate(60)
 	var c = createCanvas(400, 400);
 	fill(29, 120, 116)
-	angle = 0;
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
 	z = color(r, g, b);
-}
-
-function setup() {
+	
 	  cnv = createCanvas(300, 300);
-	  centerCanvas();
 	  background(29, 120, 116);
 	}
 
@@ -31,13 +26,8 @@ function draw()
 	b = color (0,0,0)
 	d = color(159,232,255)
 	f = color(255,255,255) 
-	//z = color(158,87,232)
-	rotate(PI / angle);
+	z = color(158,87,232)
 	
-	//hornz
-	fill(a)
-	if ((mouseX < 430 && mouseX > 30) && (mouseY < 400 && mouseY > 0 )){
-		fill(z);
 	
 	
 	triangle(128,79,82,116,77,28)
@@ -65,10 +55,9 @@ function draw()
 	line(191,221,214,254)
 	
 	fill(f)
-	//translate(width / 1, height / 1); rotate(PI / 1.0);
 	triangle(121,149,126,157,129,150)
 	
-	
-	angle = angle + 1;
-
-	}
+	//hornz
+	fill(a)
+	if ((mouseX < 430 && mouseX > 30) && (mouseY < 400 && mouseY > 0 )){
+		fill(z); }}
