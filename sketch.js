@@ -9,12 +9,12 @@ function setup() {
 	b = random(0,255); 
 	z = color(r, g, b);
 }
-	var cnv;
+	//var cnv;
 
-function centerCanvas() {
-	  var x = (windowWidth - width) / 2;
-	  var y = (windowHeight - height) / 2;
-	  cnv.position(x, y);
+//function centerCanvas() {
+	  //var x = (windowWidth - width) / 2;
+	  //var y = (windowHeight - height) / 2;
+	  //cnv.position(x, y);
 	}
 
 function setup() {
@@ -23,8 +23,8 @@ function setup() {
 	  background(29, 120, 116);
 	}
 
-function windowResized() {
-	  centerCanvas();
+//function windowResized() {
+	  //centerCanvas();
 	}
 
 function mouseClicked(){
