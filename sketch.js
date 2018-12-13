@@ -7,7 +7,7 @@ function setup() {
 	b = random(0,255); 
 	z = color(r, g, b);
 	
-	  cnv = createCanvas(300, 300);
+	  cnv = createCanvas(400, 400);
 	  background(29, 120, 116);
 	}
 
@@ -26,7 +26,7 @@ function draw()
 	b = color (0,0,0)
 	d = color(159,232,255)
 	f = color(255,255,255) 
-	z = color(158,87,232)
+	
 	
 	
 	
@@ -57,7 +57,9 @@ function draw()
 	fill(f)
 	triangle(121,149,126,157,129,150)
 	
+
 	//hornz
-	fill(a)
+	fill(a);
 	if ((mouseX < 430 && mouseX > 30) && (mouseY < 400 && mouseY > 0 )){
-		fill(z); }}
+		fill(z); 
+	}}
