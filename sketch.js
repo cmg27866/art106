@@ -8,7 +8,8 @@ function setup() {
 	z = color(r, g, b);
 
 	  background(29, 120, 116);
-function mouseClicked(){
+
+	function mouseClicked(){
 	r = random(0,255);	
 	g = random(0,255); 
 	b = random(0,255); 
@@ -17,17 +18,11 @@ function mouseClicked(){
 	
 }
 
-
-
 function draw() 
 {	
 	//Define a random color value for the horns
 	background(29, 120, 116);
-	a = color(0,0,0)
-	b = color (0,0,0)
-	d = color(159,232,255)
-	f = color(255,255,255) 
-	z = color(158,87,232)
+	
 	
 	
 	
