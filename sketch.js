@@ -37,7 +37,7 @@ function draw() {
 	fill(a)
 	if ((mouseX < 430 && mouseX > 30) && (mouseY < 400 && mouseY > 0 )){
 		fill(z);
-	}
+	
 	
 	triangle(128,79,82,116,77,28)
 	triangle(270,82,315,116,314,28)
@@ -91,3 +91,5 @@ function draw() {
 	
 	
 	console.log(mouseX,mouseY)}
+	
+}
